@@ -1,0 +1,22 @@
+[
+    {
+        "case": "wrong type of port",
+        "stmp": "smtp.gmail.com",
+        "port": "123",
+        "display": "abc",
+        "address": "tien.nguyen@kms-technology.com",
+        "account": "tien.nguyen@kms-technology.com",
+        "password": "123",
+        "errorMessage": "Port must be number."
+    },
+    {
+        "case": "wrong type of email",
+        "stmp": "smtp.gmail.com",
+        "port": "123",
+        "display": "abc",
+        "address": "test",
+        "account": "tien.nguyen@kms-technology.com",
+        "password": "123",
+        "errorMessage": "Wrong format email."
+    }
+]
